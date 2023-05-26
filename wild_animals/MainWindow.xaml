@@ -1,0 +1,69 @@
+﻿<Window x:Class="wild_animals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wild_animals"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowState="Maximized" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lab">
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image  x:Name="im" Source="Pictures\elephant.jpg"  Height="279" Width="349"/>
+                    <TextBlock Width="30"/>
+                    <TextBlock  Width="1200" TextWrapping="Wrap" Text="Слоны — самые крупные наземные животные на Земле.Обитают они в тропических лесах Восточной Азии и в Африке, в саваннах.Слоны используют свои хоботы, чтобы поднимать предметы, трубить предупреждения,приветствовать других слонов или набирать воду для питья или купания. И у самцов, и у самок африканских слонов вырастают клыки, и у каждой особи могут быть либо левый, либо правый клык."
+            FontSize="27"/>
+                </StackPanel>
+               
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image   Source="Pictures\giraffe.jpg"  Height="279" Width="349"/>
+                    <TextBlock Width="30"/>
+                    <TextBlock  Width="1200" TextWrapping="Wrap" Text="На самом жарком континенте обитают самые высокие на Земле животные – жирафы. Одну треть роста составляет шея. А ещё у жирафов прекрасные длинные и быстрые (что немаловажно!) ноги. И конечно, «пятна-пятна-пятна-пятнышки везде» – как мы знаем из детской песни. Жираф ни на кого не похож. И за свою удивительную внешность и миролюбивый нрав стал для человека настоящим символом спокойствия, нежности, мудрости и заботы."
+            
+            FontSize="27"/>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image   Source="Pictures\tiger.jpg"  Height="279" Width="349"/>
+                    <TextBlock Width="30"/>
+                    <TextBlock  Width="1200" TextWrapping="Wrap" Text="Тигр — хищное млекопитающее семейства кошачьих, один из пяти видов рода пантер, принадлежащего к подсемейству больших кошек. Слово «тигр» происходит от др.-греч. τίγρις, которое в свою очередь восходит к др.-перс. *tigri от корня «*taig» со значением «острый; быстрый»."
+           
+            
+            FontSize="27"/>
+                </StackPanel>
+
+            </ListBoxItem>
+        </ListBox>
+        <!--<ListView FontSize="30" DisplayMemberPath="Animals" ItemsSource="{Binding Animals}" x:Name="ls" Margin="10" Background="WhiteSmoke" BorderBrush="Black">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="400">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                     <TextBlock Text="{Binding opis}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="400">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <Image Width="400" Source="{Binding name}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+           
+            
+        </ListView>-->
+    </Grid>
+</Window>
