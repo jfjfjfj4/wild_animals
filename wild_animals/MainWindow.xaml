@@ -38,6 +38,15 @@
                 </StackPanel>
 
             </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image   Source="Pictures\лев.jpg"  Height="279" Width="349"/>
+                    <TextBlock Width="30"/>
+                    <TextBlock  Width="1200" TextWrapping="Wrap" Text="Лев — вид хищных млекопитающих, один из пяти представителей рода пантер, относящегося к подсемейству больших кошек в составе семейства кошачьих. Наряду с тигром — самая крупная из ныне живущих кошек, масса некоторых самцов может достигать 250 кг."
+            
+            FontSize="27"/>
+                </StackPanel>
+            </ListBoxItem>
         </ListBox>
         <!--<ListView FontSize="30" DisplayMemberPath="Animals" ItemsSource="{Binding Animals}" x:Name="ls" Margin="10" Background="WhiteSmoke" BorderBrush="Black">
             <ListView.View>
