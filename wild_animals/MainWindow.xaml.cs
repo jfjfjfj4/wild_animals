@@ -55,7 +55,7 @@ namespace wild_animals
             MainWindow m = new MainWindow();
             string name { get; set; }
             string opis { get; set; }
-            public string A(string n,string o)   
+            public string A(string n,string o)     
             {
                  name= n;
                  opis=o;
